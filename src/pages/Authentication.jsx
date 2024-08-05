@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { Col, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { registerUserApi } from "../server/allApi";
+import { registerUserApi } from "../../server/allApi";
 
 function Authentication({ login, register }) {
   const [user, setUser] = useState({

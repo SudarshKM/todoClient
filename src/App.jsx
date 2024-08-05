@@ -2,9 +2,9 @@
 import './App.css'
 
 import { Route, Routes } from 'react-router-dom'
-import LandingPage from '../pages/LandingPage'
-import Authentication from '../pages/Authentication'
-import Dashboard from '../pages/Dashboard'
+import LandingPage from './pages/LandingPage'
+import Authentication from './pages/Authentication'
+import Dashboard from './pages/Dashboard'
 
 function App() {
 
